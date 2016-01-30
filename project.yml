@@ -1,0 +1,30 @@
+_prefs: 
+  mapid: wknowles.fdb6596f
+  saveCenter: true
+_properties: 
+  bridge: 
+    "group-by": layer
+attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
+bounds: 
+  - -180
+  - -85.0511
+  - 180
+  - 85.0511
+center: 
+  - -46.582
+  - 35.4607
+  - 3
+description: 'an old style map, intended to give the look of a copperplate etching. '
+format: "png8:m=h"
+interactivity_layer: ''
+layers: null
+maxzoom: 13
+minzoom: 2
+name: intaglio
+source: "mapbox:///mapbox.mapbox-streets-v6,wknowles.69817aa3,wknowles.0a0kb6xb,wknowles.2pot6ous,wknowles.6ixxg38u,wknowles.bf0mbdwf,wknowles.8anl93ja,wknowles.9s24rrkn,wknowles.48eup72n,wknowles.20pbgbpm,wknowles.5krtjrtz,wknowles.4xft3h5j,wknowles.8rxqgn5a"
+styles: 
+  - style.mss
+  - labels.mss
+  - bg.mss
+  - natural_earth.mss
+template: ''

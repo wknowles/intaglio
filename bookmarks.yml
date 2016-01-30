@@ -1,0 +1,56 @@
+- place_name: -3.7766, -114.0820
+  zoom: 3
+  center: 
+    - -3.7765593098768635
+    - -114.08203125
+  tags: 
+    - userbookmark
+  index: 0
+- place_name: Capital H (Part 1), British Columbia, Canada
+  zoom: 9
+  center: 
+    - 48.315167827829605
+    - -123.7554931640625
+  tags: 
+    - userbookmark
+  index: 1
+- place_name: 94-117 Leokane St, Ewa Beach, Hawaii 96706, United States
+  zoom: 10
+  center: 
+    - 21.371883800176654
+    - -158.01498413085938
+  tags: 
+    - userbookmark
+  index: 2
+- place_name: -12.1058, -77.1405
+  zoom: 10
+  center: 
+    - -12.105795026956345
+    - -77.14050292968749
+  tags: 
+    - userbookmark
+  index: 3
+- place_name: -33.0518, -71.6817
+  zoom: 10
+  center: 
+    - -33.05183888113547
+    - -71.68167114257812
+  tags: 
+    - userbookmark
+  index: 4
+- place_name: Calle Agua Potable 261, Valparaíso, Valparaíso, Chile
+  zoom: 12
+  center: 
+    - -33.050687812039975
+    - -71.63635253906249
+  tags: 
+    - userbookmark
+  index: 5
+- place_name: -38.8311, -77.8271
+  zoom: 6
+  center: 
+    - -38.83114980934872
+    - -77.82714843749999
+  tags: 
+    - userbookmark
+  index: 6
