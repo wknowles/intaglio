@@ -10,11 +10,11 @@
 
 // Common Colors //
 @land: #fff;
-@water: #8A7052;
 @paper: #f6efdd;
 @seafeature: #958B82;
-@ink: #4F3725;
+@water: #8A7052;
 @landfeature: #8A7052;
+@ink: #4F3725;
 
 ////////////////////////////////////////////////
 // COLORS //

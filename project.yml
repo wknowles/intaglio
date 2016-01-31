@@ -11,8 +11,8 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -46.582
-  - 35.4607
+  - 140.0977
+  - -13.411
   - 3
 description: 'an old style map, intended to give the look of a copperplate etching. '
 format: "png8:m=h"
@@ -27,4 +27,5 @@ styles:
   - labels.mss
   - bg.mss
   - natural_earth.mss
+  - roads.mss
 template: ''

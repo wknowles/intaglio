@@ -6,25 +6,26 @@
 #country_label[zoom>=2] {
   text-name: @name;
   text-face-name: @serif;
+  text-transform: uppercase;
   text-wrap-width: 80;
   text-wrap-before: true;
-  text-fill: darken(@ink, 2%);
-  text-halo-fill: @land;
+  text-fill: @ink;
+  text-halo-fill: lighten(@ink, 85);
   text-halo-radius: 1;
   text-halo-rasterizer: fast;
-  text-size: 12;
+  text-size: 8;
   [zoom>=3][scalerank=1],
   [zoom>=4][scalerank=2],
   [zoom>=5][scalerank=3],
   [zoom>=6][scalerank>3] {
-    text-size: 18;
-    text-wrap-width: 160;
+    text-size: 16;
+    text-wrap-width: 200;
   }
   [zoom>=4][scalerank=1],
   [zoom>=5][scalerank=2],
   [zoom>=6][scalerank=3],
   [zoom>=7][scalerank>3] {
-    text-size: 26;
+    text-size: 18;
     text-wrap-width: 185;
   }
   [zoom>=8] { text-fill: @ink}  
@@ -39,14 +40,14 @@
   text-name: @name;
   text-face-name: @serif;
   text-transform: uppercase;
-  text-character-spacing: 1.5;
+  text-character-spacing: 1.8;
   text-placement: point;
-  text-fill: lighten(@ink, 5%);
-  text-halo-fill: @land;
+  text-fill: @ink;
+  text-halo-fill: lighten(@ink, 85);
   text-opacity: 1;
   text-halo-radius: 1.5;
   text-halo-rasterizer: fast;
-  text-size: 10;
+  text-size: 8;
   [zoom>=5][zoom<=6] {
     [area>10000] { text-size: 10; }
     [area>50000] { text-size: 11; }
@@ -293,15 +294,14 @@
 
 // Marine (oceans and seas) //
 
-#marine_label::text[zoom>=0][zoom<=7] {
+#marine_label::text[zoom>=0][zoom<=6] {
   text-name: @name;
   text-face-name: @serif_italic;
   text-fill: @ink;
-  text-halo-fill: @paper;
+  text-halo-fill: lighten(@ink, 70);
   text-halo-radius: 1;
-  text-halo-opacity: 0.8;
   text-halo-rasterizer: fast;
-  text-wrap-width: 80;
+  text-wrap-width: 300;
   text-wrap-before: true;
   [placement = 'point'] {
     text-placement: point;
@@ -309,20 +309,18 @@
   [placement = 'line'] {
     text-placement: line;
     text-avoid-edges: true;
-//    text-dy:10; // for Mutlu
   }
   [labelrank = 1] {
     [zoom = 3] {
-      text-size: 28;
-      text-wrap-width: 180;
+      text-size: 24;
     }
     [zoom = 4] {
       text-size: 35;
-      text-character-spacing: 6;
+      text-character-spacing: 2;
     }
     [zoom = 5] {
-      text-size: 40;
-      text-character-spacing: 8;
+      text-size: 35;
+      text-character-spacing: 2;
     }
   }
   [labelrank = 2] {
@@ -382,3 +380,4 @@
     text-line-spacing: 1;
   }
 }
+
