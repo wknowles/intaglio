@@ -54,3 +54,19 @@
   tags: 
     - userbookmark
   index: 6
+- place_name: 5230 Parkside Ave, Philadelphia, Pennsylvania 19131, United States
+  zoom: 11
+  center: 
+    - 39.98132938627213
+    - -75.22544860839844
+  tags: 
+    - userbookmark
+  index: 7
+- place_name: 40 S 24th St, Philadelphia, Pennsylvania 19103, United States
+  zoom: 13
+  center: 
+    - 39.95343802330847
+    - -75.1791000366211
+  tags: 
+    - userbookmark
+  index: 8

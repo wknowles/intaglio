@@ -131,6 +131,6 @@
 
 
 Map { 
-  background-color: @land;
+  background-color: lighten(@paper, 6);
   font-directory: url("fonts/");
 }
