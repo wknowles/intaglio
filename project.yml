@@ -11,9 +11,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 0.4669
-  - 50.4033
-  - 8
+  - -21.3354
+  - 65.1276
+  - 7
 description: 'an old style map, intended to give the look of a copperplate etching. '
 format: "png8:m=h"
 interactivity_layer: ''
@@ -21,7 +21,7 @@ layers: null
 maxzoom: 8
 minzoom: 2
 name: intaglio
-source: "mapbox:///mapbox.mapbox-streets-v6,wknowles.69817aa3,wknowles.0a0kb6xb,wknowles.2pot6ous,wknowles.6ixxg38u,wknowles.bf0mbdwf,wknowles.8anl93ja,wknowles.9s24rrkn,wknowles.48eup72n,wknowles.20pbgbpm,wknowles.5krtjrtz,wknowles.4xft3h5j,wknowles.8rxqgn5a"
+source: "mapbox:///mapbox.mapbox-streets-v6,wknowles.69817aa3,wknowles.0a0kb6xb,wknowles.2pot6ous,wknowles.6ixxg38u,wknowles.bf0mbdwf,wknowles.8anl93ja,wknowles.9s24rrkn,wknowles.48eup72n,wknowles.20pbgbpm,wknowles.5krtjrtz,wknowles.4xft3h5j,wknowles.8rxqgn5a,wknowles.5lhpo4qw"
 styles: 
   - style.mss
   - labels.mss

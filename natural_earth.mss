@@ -38,6 +38,11 @@
 
 // Water buffers //
 
+ #buffer_10km [zoom>=5][zoom<=8]{
+  line-color: @seafeature;
+  line-width: 2;
+}
+
 #ne10m_buffer_1 [zoom>=2][zoom<=5]{
   line-color: @seafeature;
   line-width: 1;
